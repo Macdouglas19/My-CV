@@ -1,0 +1,61 @@
+body {
+    background-color: lightGray;
+    color: Dark Gray;
+}
+#container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f5f5dc;
+    width: 70%;
+    
+}
+#header {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#profile{
+    width: 100%;
+    max-width: 43.75rem;
+}
+#navcontact ul  {
+    background-color: #003366;
+    text-align: center;
+    padding: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.sub-head{
+    color: Olivegreen;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    display: inline-block; /* Ensure width and height are applied */
+    width: 100px; /* Adjust the width as needed */
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.nav-link:visited {
+    color: red;
+}
+
+.nav-link:active {
+    color: blue;
+}
+
+.nav-link:hover {
+    color: orange;
+    
+    
+}
